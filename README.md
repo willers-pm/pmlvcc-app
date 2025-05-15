@@ -19,3 +19,11 @@
      $ php artisan ui tall --auth	
      $ npm install && npm run dev
      $ composer run dev
+
+### Create Database
+
+Create a database and update `confi/database.php`
+
+### Migration
+
+     $ php artisan migrate
