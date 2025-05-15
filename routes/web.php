@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome')->name('home');
+Route::get('/', function () {
+    return view('layouts.posts');
+});
 
 Route::middleware('guest')->group(function () {
     Route::get('login', Login::class)
