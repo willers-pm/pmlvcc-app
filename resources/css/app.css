@@ -3,8 +3,9 @@
 
 /* Custom theme configuration with system font stack */
 @theme {
-    --font-sans: 'Inter var', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --color-green-lvc: oklch(0.51 0.1457 147.69);
+    --shadow-lvc: inset 0px 0px 0px 1px rgba(26,26,0,0.16);
 }
 
 /* Include Tailwind CSS plugins for enhanced form styling and typography */
