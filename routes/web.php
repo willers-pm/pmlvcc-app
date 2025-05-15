@@ -58,3 +58,7 @@ Route::middleware('auth')->group(function () {
 Route::get('/create-post', function () {
     return view('layouts.posts');
 });
+
+Route::get('/show-post', function () {
+    return view('livewire.show-post');
+});
