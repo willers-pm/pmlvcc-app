@@ -15,6 +15,6 @@
         </div>
     </div>
     <p>
-        <a href="/create-post" class="bg-green-lvd text-[#ffffff] py-2 px-9 rounded-full">Zurück zur Übersicht</a>
+        <a href="/create-post" class="bg-green-lvc text-[#ffffff] py-2 px-9 rounded-full">Zurück zur Übersicht</a>
     </p>
 </div>
