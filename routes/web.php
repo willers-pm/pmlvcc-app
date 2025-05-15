@@ -54,3 +54,7 @@ Route::middleware('auth')->group(function () {
     Route::post('logout', LogoutController::class)
         ->name('logout');
 });
+
+Route::get('/create-post', function () {
+    return view('layouts.posts');
+});
