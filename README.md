@@ -18,11 +18,15 @@
      $ composer require livewire/livewire laravel-frontend-presets/tall
      $ php artisan ui tall --auth	
      $ npm install && npm run dev
+
+### Run Dev Environment
+
      $ composer run dev
+
 
 ### Create Database
 
-Create a database and update `confi/database.php`
+Create a database and update `config/database.php`
 
 ### Migration
 
